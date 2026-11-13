@@ -1,0 +1,8 @@
+:root{
+  /* ألوان مستخرجة من اللوجو وصورة المركز */
+  --blue:#1F6DAA; --navy:#173F7A; --deep:#0E2A52; --sky:#4DB4F0;
+  --wall:#EEF2FA; --ink:#232B38; --muted:#5B6678; --gold:#E6A94F; --gold-d:#C98A2E;
+  --font-h:"Alexandria","IBM Plex Sans Arabic",sans-serif;
+  --font-b:"IBM Plex Sans Arabic",sans-serif;
+  --radius:20px;
+}
