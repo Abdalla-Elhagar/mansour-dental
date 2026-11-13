@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
@@ -8,7 +9,9 @@ export default function Layout() {
   return (
     <>
       <Navbar />
-      <Outlet />
+      <Suspense fallback={<main className="page-loading" role="status">جاري تحميل الصفحة...</main>}>
+        <Outlet />
+      </Suspense>
       <Footer />
     </>
   );

@@ -66,12 +66,16 @@ function ComparisonSurface({
           className="comparison__before"
           src={item.before}
           alt=""
+          loading="lazy"
+          decoding="async"
           draggable="false"
         />
         <img
           className="comparison__after"
           src={item.after}
           alt=""
+          loading="lazy"
+          decoding="async"
           draggable="false"
           style={{ clipPath: `inset(0 ${100 - split}% 0 0)` }}
         />
